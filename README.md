@@ -7,7 +7,7 @@ MehediHasan-dev" />
 
 <h3 align="center">Bangladesh-Based FrontEnd Developer with a Passion</h3>
 <hr/>
-<img align="right" alt="coding" width="250" src="https://drive.usercontent.google.com/download?id=1O3YnS-4rAqoB8w99EBKoh7t_2kmooeiU&export=view&authuser=0">
+<img align="right" alt="coding" width="300" src="https://drive.usercontent.google.com/download?id=1O3YnS-4rAqoB8w99EBKoh7t_2kmooeiU&export=view&authuser=0">
 
 <br/>
 
