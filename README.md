@@ -77,8 +77,8 @@ MehediHasan-dev" />
 <br/>
 
 <div align="center">
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/hasanmehedi"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="hasanmehedi" /></a><a href="https://ko-fi.com/hasanmehedi24"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="hasanmehedi24" /></a></p><br><br>
+<h3 align="center">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/hasanmehedi"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="hasanmehedi" /></a><a href="https://ko-fi.com/hasanmehedi24"> <img align="center" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="hasanmehedi24" /></a></p><br><br>
 </div>
 
 <br/>
