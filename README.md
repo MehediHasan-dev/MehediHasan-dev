@@ -9,10 +9,6 @@ MehediHasan-dev" />
 <hr/>
 <img align="right" alt="coding" width="300" src="https://drive.usercontent.google.com/download?id=1O3YnS-4rAqoB8w99EBKoh7t_2kmooeiU&export=view&authuser=0">
 
-<br/>
-
-<br/>
-<br/>
 
 <div align="left">
      
@@ -25,6 +21,7 @@ MehediHasan-dev" />
 ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
 
 
+<br/>
 <br/>
 <br/>
 <br/>
