@@ -53,7 +53,7 @@ MehediHasan-dev" />
     <div align="center">
     <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,html,css,sass,tailwind,bootstrap" />
     <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,photoshop" />
-        <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,photoshop" />
+    <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,html,css,sass,tailwind,bootstrap" />
 </div>
 
 
