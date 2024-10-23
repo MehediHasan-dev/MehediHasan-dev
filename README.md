@@ -47,10 +47,13 @@ MehediHasan-dev" />
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
+
+
 <div align="center">
     <div align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,html,css,sass,tailwind,bootstrap" style="margin-bottom: 10px;" />
+    <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,html,css,sass,tailwind,bootstrap" />
     <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,photoshop" />
+        <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,html,css,sass,tailwind,bootstrap" />
 </div>
 
 
