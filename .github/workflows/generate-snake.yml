@@ -1,41 +1,44 @@
 
-
-
-# name: Generate Snake Animation
+# name: Generate snake animation
 
 # on:
-#   schedule:
-#     - cron: "0 */12 * * *"  # Runs every 12 hours
-#   workflow_dispatch:  # Allows manual triggering of the action
+#   schedule: # execute every 12 hours
+#     - cron: "* */12 * * *"
+
+#   workflow_dispatch:
+
+#   push:
+#     branches:
+#     - master
 
 # jobs:
 #   generate:
+#     permissions:
+#       contents: write
 #     runs-on: ubuntu-latest
+#     timeout-minutes: 5
+
 #     steps:
-#       # Step 1: Checkout the repository
-#       - name: Checkout Repository
-#         uses: actions/checkout@v2
-
-#       # Step 2: Generate snake.svg with default settings
-#       - name: Generate Snake SVG
-#         uses: Platane/snk@v3
+#       - name: generate snake.svg
+#         uses: Platane/snk/svg-only@v3
 #         with:
-#           github_user_name: MehediHasan-dev  # Replace with your GitHub username
-#           outputs: dist/snake.svg
+#           github_user_name: ${{ github.repository_owner }}
+#           outputs: dist/snake.svg?palette=github-dark
 
-#       # Step 3: Modify the snake.svg to add a white background
-#       - name: Add white background to snake.svg
-#         run: |
-#           sed -i 's/<svg /<svg style="background-color:white;" /' dist/snake.svg
 
-#       # Step 4: Push the modified snake.svg to the output branch
-#       - name: Push Snake SVG to the output branch
+#       - name: push snake.svg to the output branch
 #         uses: crazy-max/ghaction-github-pages@v3.1.0
 #         with:
-#           target_branch: output  # Push to the output branch
-#           build_dir: dist  # Directory where the SVG is generated
+#           target_branch: output
+#           build_dir: dist
 #         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
 
 
 
@@ -57,7 +60,7 @@ on:
 
   push:
     branches:
-    - master
+      - master
 
 jobs:
   generate:
@@ -67,14 +70,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
+      - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          github_user_name: "mehedihasan-dev"
+          repository_name: "mehedihasan-dev"
+          outputs: dist/snake.svg?palette=github-dark&bg_color=ffffff  # Set background color to white
 
-
-      - name: push snake.svg to the output branch
+      - name: Push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
