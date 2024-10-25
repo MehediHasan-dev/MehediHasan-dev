@@ -67,11 +67,8 @@ MehediHasan-dev" />
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
-
-
-  <div align="center">
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/MehediHasan-dev/your-repo-name/output/github-contribution-grid-snake.svg" />
+<div align="center">
+  <img alt="snake eating my contributions" src="https://github.com/mehedihasan-dev/mehedihasan-dev/blob/output/snake.svg" />
 </div>
 
   <br/><br/><br/>
