@@ -68,7 +68,7 @@ MehediHasan-dev" />
   <h2>🐍 My Contributions 🐍</h2>
   <br>
 <div align="center">
-  <img alt="snake eating my contributions" src="https://github.com/mehedihasan-dev/mehedihasan-dev/blob/output/snake.svg" />
+  <img alt="snake eating my contributions" src="https://github.com/MehediHasan-dev/MehediHasan-dev/blob/output/snake.svg" />
 </div>
 
   <br/><br/><br/>
